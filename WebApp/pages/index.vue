@@ -1,25 +1,17 @@
 <template>
-  <div class="page">
-    <Header>
-
-    </Header>
-    <MainContent>
-
-    </MainContent>
-    <Footer>
-
-    </Footer>
-  </div>
+    <div class="main-page">
+        Hello page
+    </div>
 </template>
 
 <script>
 export default {
-  components: true
+    components: true
 }
 </script>
 
 <style lang="scss" scoped>
-.page{
-  display: grid;
+.main-page{
+    background-color: lightblue;
 }
 </style>

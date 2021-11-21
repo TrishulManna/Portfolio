@@ -1,5 +1,5 @@
 <template>
-    <div class="footer">
+    <div>
         Hello Footers
     </div>
 </template>
@@ -11,5 +11,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+    .footer{
+        background-color: lightgreen;
+    }
 </style>
