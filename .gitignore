@@ -1,0 +1,26 @@
+# Exclude node_modules directory
+node_modules/
+
+# Exclude .nuxt directory (build artifacts)
+.nuxt/
+
+# Exclude build output directories
+dist/
+.out/
+
+# Exclude editor-specific configuration files (e.g., VSCode, WebStorm)
+.idea/
+.vscode/
+
+# Exclude log files
+*.log
+
+# Exclude environment-specific configuration files
+.env.local
+.env.development
+.env.production
+.env.*
+
+# Exclude npm and yarn lock files
+package-lock.json
+yarn.lock
